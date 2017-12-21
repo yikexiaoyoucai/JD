@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textColor="#f00"
+        android:id="@+id/babaname"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_vertical"/>
+<GridView
+    android:layout_width="300dp"
+    android:layout_height="400dp"
+    android:id="@+id/gv2"
+    android:numColumns="3"
+    android:background="#fff"
+    android:layout_marginLeft="20dp"
+    >
+</GridView>
+</LinearLayout>
